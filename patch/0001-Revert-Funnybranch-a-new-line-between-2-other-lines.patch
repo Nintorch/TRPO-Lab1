@@ -1,0 +1,24 @@
+From 4194eac3e39e43c8b1cd3e19c32386d3c6679c85 Mon Sep 17 00:00:00 2001
+From: Nintorch <testovprivet@gmail.com>
+Date: Mon, 19 Feb 2024 21:33:18 +0500
+Subject: [PATCH] Revert "Funnybranch: a new line between 2 other lines"
+
+This reverts commit b2717ca5d456bfcda6b5ccea121875a16256ff15.
+---
+ Test.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Test.txt b/Test.txt
+index 564fdb4..60781f6 100644
+--- a/Test.txt
++++ b/Test.txt
+@@ -1,5 +1,4 @@
+ Новая строка
+ Другая новая строка
+-Строка между других строк
+ Вторая строка
+ Ещё более новая строка
+\ No newline at end of file
+-- 
+2.39.0.windows.1
+
